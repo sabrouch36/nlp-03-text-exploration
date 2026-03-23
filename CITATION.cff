@@ -20,8 +20,12 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-03-text-exploration"
-url: "https://github.com/denisecase/nlp-03-text-exploration"
+  - family-names: Hamdaoui
+    given-names: Sabri
+
+
+repository-code: "https://github.com/sabrouch36/nlp-03-text-exploration"
+url: "https://github.com/sabrouch36/nlp-03-text-exploration"
 license: MIT
 
 abstract: |
