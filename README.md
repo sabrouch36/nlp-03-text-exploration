@@ -272,7 +272,7 @@ and groups of related terms emerge naturally from the data.
 Even before any modeling, we can begin to distinguish categories
 and see how meaning is reflected through **patterns of use**.
 
-## My Modification
+## My Modification Phase 5
 
 ### What I changed
 - Added stopwords filtering in the tokenize function to remove common words.
@@ -285,3 +285,23 @@ and see how meaning is reflected through **patterns of use**.
 ### Results
 - The output became cleaner after removing common words like "the" and "a".
 - The project now shows top bigrams per category, revealing contextual patterns in the text.
+
+## My Modification
+
+### What I changed
+- Replaced the original sample dataset (dog, cat, car, truck) with a new dataset based on city service feedback (transport, cleanliness, safety, services).
+- Added stopwords filtering to improve text quality.
+- Extended the analysis by computing top bigrams per category.
+- Updated co-occurrence targets to match the new domain.
+- Improved visualization to reflect real-world categories.
+
+### Why
+- To apply the same NLP techniques to a real-world problem instead of a simple example.
+- To extract meaningful insights from citizen feedback about city services.
+- To demonstrate the ability to adapt analytical methods to a new domain.
+
+### Results
+- The analysis revealed key issues in transport, cleanliness, safety, and services.
+- Stopwords removal improved the clarity of token frequency results.
+- Bigram analysis provided deeper insights into word relationships (e.g., "public transport", "very poor").
+- The project now reflects a realistic data analysis scenario instead of a basic example.
