@@ -271,3 +271,17 @@ and groups of related terms emerge naturally from the data.
 
 Even before any modeling, we can begin to distinguish categories
 and see how meaning is reflected through **patterns of use**.
+
+## My Modification
+
+### What I changed
+- Added stopwords filtering in the tokenize function to remove common words.
+- Added a new analysis to compute top bigrams per category.
+
+### Why
+- Stopwords removal improves the quality of token analysis by focusing on meaningful words.
+- Bigrams analysis helps capture relationships between words and provides deeper insight than single tokens.
+
+### Results
+- The output became cleaner after removing common words like "the" and "a".
+- The project now shows top bigrams per category, revealing contextual patterns in the text.
